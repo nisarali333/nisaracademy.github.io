@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPSC Computer Science Quiz 1</title>
+<link rel="stylesheet" href="cs1.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>FPSC Computer Science Lecturer Quiz 1</h1>
+    <div id="introduction">
+      <p>Welcome to the FPSC Computer Science Lecturer Quiz 1! This Quiz consists of 100 questions based 
+         on the FPSC syllabus for Computer Science Lecturer including Data Communication and networking,
+         C/C++, Unix/Linux Opearting System and Visual Basic. You can find remaining topics in Quiz 2.
+         Each question has multiple options, and you need to 
+         select the correct one. You have 100 minutes to complete the quiz. Good luck!</p>
+      <button id="startQuiz">Start Quiz</button>
+    </div>
+    <div id="quiz" style="display: none;">
+      <div id="timer">Time Left: 100:00</div>
+      <div id="questionContainer"></div>
+      <button id="previous" style="display: none;">Previous</button>
+      <button id="next">Next</button>
+      <button id="submit" style="display: none;">Submit Answers</button>
+    </div>
+    <div id="result" style="display: none;"></div>
+  </div>
+  <script src="cs1q.js"></script>
+  <script src="cs1.js"></script>
+</body>
+
+</html>
